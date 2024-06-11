@@ -1,0 +1,20 @@
+digraph sample {
+6 [label="6(0)"];
+8 [label="8(27)"];
+13 [label="13(18)"];
+3 [label="3(17)"];
+25 [label="25(23)"];
+4 [label="4(17)"];
+16 [label="16(8)"];
+3 -> 8[color="black"];
+3 -> 13[color="black"];
+4 -> 25[color="black"];
+6 -> 3[color="black"];
+6 -> 16[color="black"];
+16 -> 4[color="black"];
+1[color="black"];
+12[color="black"];
+21[color="black"];
+22[color="black"];
+24[color="black"];
+}

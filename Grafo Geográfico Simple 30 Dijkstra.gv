@@ -1,0 +1,11 @@
+digraph sample {
+2 [label="2(0)"];
+19 [label="19(29)"];
+11 [label="11(15)"];
+26 [label="26(14)"];
+18 [label="18(7)"];
+2 -> 11[color="black"];
+2 -> 18[color="black"];
+11 -> 19[color="black"];
+18 -> 26[color="black"];
+}

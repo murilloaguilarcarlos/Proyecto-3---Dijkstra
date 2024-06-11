@@ -1,0 +1,25 @@
+digraph sample {
+15 [label="15(0)"];
+27 [label="27(21)"];
+30 [label="30(25)"];
+24 [label="24(20)"];
+18 [label="18(6)"];
+17 [label="17(15)"];
+16 [label="16(14)"];
+29 [label="29(22)"];
+23 [label="23(19)"];
+28 [label="28(11)"];
+22 [label="22(11)"];
+21 [label="21(1)"];
+15 -> 21[color="black"];
+15 -> 16[color="black"];
+16 -> 17[color="black"];
+17 -> 18[color="black"];
+18 -> 24[color="black"];
+21 -> 27[color="black"];
+21 -> 22[color="black"];
+22 -> 28[color="black"];
+22 -> 23[color="black"];
+23 -> 29[color="black"];
+24 -> 30[color="black"];
+}
